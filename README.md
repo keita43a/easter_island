@@ -10,6 +10,25 @@ This repository illustrates the numerical exercises of the model in the paper us
 
 ## Results
 
+### Case 1: High carrying capacity and high growth rate
+
+Sustained prosperity (e.g. Tahiti)
+
+![alt text](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.2.png?raw=true)
+
+### Case 2: High carrying capacity and low growth rate
+
+"Feast and Famine" case (e.g. Easter Island)
+
+![alt text](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.01.png?raw=true)
+
+### Case 3: Low carrying capacity and low growth rate
+
+People arrived but gave up (e.g. Nihoa)
+
+![alt text](https://github.com/keita43a/easter_island/figure/plot_K_1000_r_0.01.png?raw=true)
+
+
 ## Plan
 
 I would like to develop a Shiny app for the students to easily play with the parameter values. (For example, [Open-access fishery dynamic by Grant McDermott](https://grantmcdermott.shinyapps.io/open-access-fishery/))
