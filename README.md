@@ -14,19 +14,19 @@ This repository illustrates the numerical exercises of the model in the paper us
 
 Sustained prosperity (e.g. Tahiti)
 
-![alt text](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.2.png?raw=true)
+![case1](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.2.png)
 
 ### Case 2: High carrying capacity and low growth rate
 
 "Feast and Famine" case (e.g. Easter Island)
 
-![alt text](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.01.png?raw=true)
+![case2](https://github.com/keita43a/easter_island/figure/plot_K_12000_r_0.01.png)
 
 ### Case 3: Low carrying capacity and low growth rate
 
 People arrived but gave up (e.g. Nihoa)
 
-![alt text](https://github.com/keita43a/easter_island/figure/plot_K_1000_r_0.01.png?raw=true)
+![case3](https://github.com/keita43a/easter_island/figure/plot_K_1000_r_0.01.png)
 
 
 ## Plan
