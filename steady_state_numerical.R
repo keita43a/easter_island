@@ -27,8 +27,8 @@ mat = matrix(nrow=300,ncol=2)
 L_int = 40 # Initial value for population
 
 # Change the initial parameters 
-r_int = 0.2    # r: intrinsic growth rate
-S_int = 12000  # K: Carrying capacity 
+r_int = 0.01    # r: intrinsic growth rate
+S_int = 1000  # K: Carrying capacity 
 
 # Simulation by loop
 for(t in 1:300){ # 300 years
@@ -49,14 +49,19 @@ dat = data.frame(mat) %>%
   tidyr::pivot_longer(cols = c("Population","Resource Stock"),names_to = "variable",
                       values_to = "values")
 
+
 # Make plot 
 plot_sim = ggplot(dat, aes(x=time, y=values, col = variable)) +
   geom_line() + 
   theme_bw() +
-  scale_color_viridis_d() +
-  annotate("text", x = 250,y=0.9*S_int, label = paste("italic(K)==",S_int), parse= TRUE) +
-  annotate("text", x = 250,y=0.80*S_int, label = paste("italic(r)==",r_int), parse= TRUE) +
-  theme(legend.position = "bottom")
+  scale_color_brewer(palette="Set2") +
+  annotate("text", x = 250,y=0.9*S_int, label = paste("italic(K[0])==",S_int), parse = TRUE,hjust=0,size=5) + 
+  annotate("text", x = 250,y=0.80*S_int, label = paste("italic(r[0])==",r_int), parse= TRUE,hjust=0,size=5) +
+  theme(legend.position = "bottom",
+        axis.title = element_text(size=15),
+        axis.text = element_text(size=15),
+        legend.title = element_text(size=15),
+        legend.text = element_text(size=15))
 
 # Show plot
 plot_sim

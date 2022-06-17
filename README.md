@@ -8,6 +8,12 @@ The model developed by Brander &amp; Taylor (1998) describes that a "feast and f
 
 This repository illustrates the numerical exercises of the model in the paper using the different parameters to exhibits the results. 
 
+## Shiny app
+
+You can play with the initial values of parameters on the Shiny app. 
+
+https://keita43a.shinyapps.io/easter_island/
+
 ## Results
 
 ### Case 1: High carrying capacity and high growth rate
@@ -29,8 +35,3 @@ People arrived but gave up (e.g. Nihoa)
 
 ![case3](https://github.com/keita43a/easter_island/blob/main/figure/plot_K_1000_r_0.01.png?raw=true)
 
-
-## Plan
-
-I would like to develop a Shiny app for the students to easily play with the parameter values. (For example, [Open-access fishery dynamic by Grant McDermott](https://grantmcdermott.shinyapps.io/open-access-fishery/))
-While I am planning to learn Shiny, it is welcome to your contribution. 
